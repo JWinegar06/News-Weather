@@ -1,31 +1,31 @@
-body { background: lightcyan; color: black; padding: 4em; font-family: sans-serif; line-height: 1.15; }
+body { background: steelblue; color: black; padding: 4em; font-family: sans-serif; line-height: 1.15; }
 
 a { color: black; }
 
-ul { max-width: 100%; list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: lightslategray; }
+ul { max-width: 100%; list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: lightsteelblue; }
 
 li { float: left; }
 
-li a { display: block; color: slateblue; text-align: center; padding: 14px 16px; text-decoration: none; }
+li a { display: block; color: steelblue; text-align: center; padding: 14px 16px; text-decoration: none; }
 
-li a:hover:not(.active) { background-color: black; }
+li a:hover:not(.active) { background-color: darkorchid; }
 
-.active { background-color: cyan; }
+.active { background-color: steelblue; }
 
 /* News Section */ 
 hr { height: 6px; border: none; } 
-.page { padding: 2em; background: lavenderblush; max-width: 100%; } 
+.page { padding: 2em; background: lightskyblue; max-width: 100%; } 
 .archive { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); grid-gap: 1em; grid-auto-flow: dense; } 
-.article { text-align: center; padding: 1em; background: slategray; box-shadow: 0 5px 10px black, 0 20px 20px rgba(0, 0, 0, 0.05); }
+.article { text-align: center; padding: 1em; background: lightsteelblue; box-shadow: 0 5px 10px black, 0 20px 20px rgba(0, 0, 0, 0.05); }
 .article img { max-width: 100%; } 
-.five-day { text-align: center; padding: 1em; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 20px 20px rgba(0, 0, 0, 0.05); grid-column: 1 / 5; background: steelblue; } 
+.five-day { text-align: center; padding: 1em; box-shadow: 0 5px 10px lightblue, 0 20px 20px lightsteelblue; grid-column: 1 / 5; background: steelblue; } 
 .day { color: #111; max-width: 100px; height: 125px; background-color: a; } 
-.article:nth-child(1) { grid-column: 1 / -1; background: rgba(200, 200, 255, 0.3); } 
-.article:nth-child(8) { grid-column: -3 / -1; background: rgba(255, 200, 255, 0.3); } 
+.article:nth-child(1) { grid-column: 1 / -1; background: lightsteelblue; } 
+.article:nth-child(8) { grid-column: -3 / -1; background: lightsteelblue; } 
 .article:nth-child(8):after { content: "grid-column: -3 / -1"; } @media (max-width: 680px) { .archive { display: flex; flex-direction: column; } .article { margin-bottom: 1em; } } 
 
 /* Weather sections */ 
-.article-five-day { grid-column: 1 / -1; padding: 15px; margin-top: 15px; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 20px 20px rgba(0, 0, 0, 0.05); background-color: rgba(200, 200, 255, 0.3); } 
+.article-five-day { grid-column: 1 / -1; padding: 15px; margin-top: 15px; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 20px 20px rgba(0, 0, 0, 0.05); background-color: slateblue; } 
 .five-article { text-align: center; } #city { text-align: center; } #forecastTitle { text-align: center; } 
 .flex { display: flex; justify-content: center; } 
 .flex-col { text-align: center; margin-right: 50px; } #stats { text-align: start; float: left; } 
